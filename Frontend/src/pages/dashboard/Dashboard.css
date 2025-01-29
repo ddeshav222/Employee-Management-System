@@ -1,0 +1,54 @@
+/* General layout improvements */
+.dashboard-container { /* Adjusted container padding and background */
+  padding: 20px;
+  margin-top: 0;
+  min-height: calc(100vh - 60px); /* Adjust height dynamically */
+  background-color: #f9f9f9; /* Light background for contrast */
+}
+
+/* Table styling */
+.employee-table { /* Added custom styles for the table */
+  border-collapse: collapse;
+  border-spacing: 0;
+  margin-bottom: 20px;
+}
+
+.employee-table th,
+.employee-table td { /* Adjusted padding for better spacing */
+  text-align: center;
+  vertical-align: middle;
+  padding: 9px;
+  
+}
+
+.employee-table th { /* Styled table headers */
+  background-color: #007bff;
+  color: white;
+  font-weight: bold;
+  padding: 12px;
+}
+
+/* Button group styling */
+.button-group { /* Added spacing between buttons */
+  display: flex;
+  gap: 10px; /* Added gap for button spacing */
+  
+}
+
+button { /* Consistent button size and rounded corners */
+  border-radius: 5px;
+  font-size: 0.875rem;
+}
+
+/* Headline styling */
+h1 { /* Adjusted color and font weight of the headline */
+  color: #333;
+  font-weight: bold;
+}
+
+/* Optional: Adjust container for larger screens */
+@media (min-width: 768px) {
+  .dashboard-container { /* Increased padding on larger screens */
+    padding: 40px;
+  }
+}
