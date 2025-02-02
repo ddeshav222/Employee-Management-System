@@ -1,7 +1,30 @@
 # Employee-Management-System
-Employee Management System is a full-stack CRUD application using Spring Boot (backend) and React (frontend) to manage employee information.
 
-Screenshots...
+The Employee Management System is a full-stack CRUD application that enables users to manage employee records efficiently. Built with Spring Boot for the backend and React for the frontend, this application allows users to perform operations such as creating, reading, updating, and deleting employee details.
+
+#Features
+Add new employees with details such as name, email, phone, and department.
+View a list of all employees.
+Update existing employee information.
+Delete employee records.
+RESTful API integration.
+Persistent data storage using MySQL.
+Responsive and user-friendly interface with React.
+
+#Technologies Used
+
+Backend:
+Spring Boot
+Spring Data JPA
+RESTful APIs
+MySQL
+
+Frontend:
+React
+React Router
+Fetch API
+
+#Screenshots...
 ![Screenshot (17)](https://github.com/user-attachments/assets/ab9fbfde-afee-4ea9-92bb-20c1a33f14a3)
 ![Screenshot (18)](https://github.com/user-attachments/assets/8e305e47-b61f-494d-8dd6-a7c118290e16)
 ![Screenshot (19)](https://github.com/user-attachments/assets/dd7a0840-ebc0-4b20-8d8c-c708cbc6c042)
